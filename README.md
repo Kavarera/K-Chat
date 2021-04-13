@@ -12,10 +12,13 @@ K-Chat is a local area network chat that work with UDP protocol,
 ## Bugs
 This application is my first chat application. I learned how to make a chat application from YouTube, of course this application has many bugs. There are a few bugs that I know, namely:
 1. Your message is not delivered to the target 
+
    |    This can be happen because the UDP Protocol does not use an Identifier Number and UDP cannot detect the lost packets, if you want to fix it, try using TCP / IP      |
+   
    |    Or this can happen if the port is used by some other application. Try to change the port    |
    
 2. Your message is sent twice
+
    |    I am still finding out why this happened, but I am pretty sure that this bug could occur due to the UDP Protocol        |
 
 That's all i know so far....
