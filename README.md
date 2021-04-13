@@ -5,7 +5,7 @@ K-Chat is a local area network chat that work with UDP protocol,
 ## How it works
 ```bash
 1. first you need to input target ip that you want to chat and input the port, and then input your ip and the port must be same
-2. Click connect and wait until the target is do the same thing to you
+2. Click connect and wait for the target to do the same to you
 3. If both of you are connected there will be a message 
 ```
 
