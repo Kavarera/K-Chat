@@ -1,30 +1,26 @@
 # K-Chat
 
-K-Chat is a local area network chat that work with UDP protocol, 
+K-Chat is a local area network chat application that operates using the UDP protocol.
 
 ## How it works
 ```bash
-1. first you need to input target ip that you want to chat and input the port, and then input your ip and the port must be same
-2. Click connect and wait for the target to do the same way
-3. If both of you are connected there will be a message 
+1. Begin by entering the target IP address and the corresponding port for your chat. Ensure that your IP address and port match.
+2. Click "Connect" and wait for the target to follow the same steps.
+3. Once both parties are connected, a confirmation message will be displayed.
 ```
 
-## Bugs
-This application is my first chat application. I learned how to make a chat application from YouTube, of course this application has many bugs. There are a few bugs that I know, namely:
-1. Your message is not delivered to the target 
-
-   |    This can be happen because the UDP Protocol does not use an Identifier Number and UDP cannot detect the lost packets, if you want to fix it, try to use  TCP / IP      |
+## Known Bugs
+This application represents my initial attempt at creating a chat application, and I acquired the knowledge from YouTube tutorials. As a result, there are several known bugs, including:
+1. Message Delivery Issue to Target
+    - This problem arises because the UDP protocol lacks an identifier number, making it unable to detect lost packets. To resolve this, consider using TCP/IP.
+   - Additionally, check if the port is being utilized by another application and try changing it.
    
-   |    Or this can happen if the port is used by some other application. Try to change the port    |
-   
-2. Your message is sent twice
+2. Duplicate Message Sending
+   - I am actively investigating the cause of this issue. It is likely associated with the UDP protocol.
 
-   |    I am still finding out why this happened, but I am pretty sure that this bug could occur due to the UDP Protocol        |
-
-That's all i know so far....
 
 ## Contributing
-Pull requests if you fix some bug or you put more feature to this app but please tell me the details. I would be very grateful if you did
+Feel free to submit pull requests for bug fixes or additional features. Please provide detailed information about the changes you made. Your contributions are greatly appreciated.
 
 # Update
-I never update this app again, because I don't have time ... and I only updated Readme because my friend told me the bug
+I have discontinued updates for this application due to time constraints. However, I have made a readme update based on my friend's bug report.
